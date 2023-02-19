@@ -1,0 +1,36 @@
+body{
+    font-family: "Inter", serif;
+}
+
+.navbar{
+    
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.list{
+    display: flex;
+    color: grey;
+}
+
+.list1:hover{
+    color: rgb(62, 62, 237);
+    cursor: pointer;
+    transition: all;
+    transition-duration: 200;
+}
+
+.logo{
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
