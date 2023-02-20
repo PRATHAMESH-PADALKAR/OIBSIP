@@ -76,3 +76,33 @@ a{
     font-weight: 500;
     
 }
+
+.trophy_section{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.trophy_div{
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.trophy_content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.trophy_left{
+    height: 319px;
+    width: 432px;
+}
+
+.trophy_right{
+    height: 333px;
+    width: 528px;
+}
