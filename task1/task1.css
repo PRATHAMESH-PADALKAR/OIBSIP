@@ -206,3 +206,19 @@ a:hover{
     font-size: 110%;
     transition-duration: 300ms;
 }
+
+.last_section{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.last_div{
+    margin-left: 181px;
+    margin-right: 181px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}
