@@ -3,14 +3,13 @@ body{
 }
 
 .navbar{
-    
     height: auto;
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
     padding-left: 100px;
     padding-right: 100px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.207);
+    border-bottom: 1px solid #eee;
 }
 
 a{
@@ -22,11 +21,14 @@ a{
     color: grey;
 }
 
+.list1{
+    color: #424242;
+}
+
 .list1:hover{
-    color: rgb(62, 62, 237);
+    color: #387ed1;
     cursor: pointer;
-    transition: all;
-    transition-duration: 200;
+    transition-duration: 200ms;
 }
 
 .logo{
@@ -221,4 +223,78 @@ a:hover{
 button:hover{
     background-color: black;
     cursor: pointer;
+}
+
+.footter{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    background-color: #fafafb;
+    border-top: 1px solid #eee;
+}
+
+.foot_mainDiv{
+    margin-left: 81px;
+    margin-right: 81px;
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+}
+
+.fDiv{
+    justify-content: space-between;
+    display: flex;
+}
+
+.div1{
+    width: 242px;
+    height: 302px;
+}
+
+.div2{
+    width: 242px;
+    height: 302px;
+}
+
+.div3{
+    width: 242px;
+    height: 302px;
+}
+
+.div4{
+    width: 242px;
+    height: 302px;
+}
+
+.footerUl{
+    width: 242px;
+    height: 32px;
+    display: flex; 
+    list-style: none; 
+    justify-content: space-between;
+    padding: 0;
+}
+
+.fImg:hover{
+    transform: scale(1.2);
+    transition-duration: 400ms;
+}
+
+.footerLI{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    line-height: 2;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.footerLi{
+    line-height: 1.8;
+    color: #424242;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footerLi:hover{
+    color: #387ed1;
+    transition-duration: 300ms;
 }
