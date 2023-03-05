@@ -11,13 +11,13 @@
     align-items: center;
     height: 100vh;
     text-align: center;
-    /* background-color: rgb(103, 160, 235); */
+    background-color: rgb(0, 0, 0); 
 }
 
 #calTemp{
     padding: 29px 67px;
     min-height: 290px;
-    background-color: #94abf581;
+    background-color: #aabcf7e6;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
@@ -27,6 +27,17 @@ label{
 }
 
 #temp{
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff{
     width: 120px;
     height: 34px;
     border-radius: 5px;
