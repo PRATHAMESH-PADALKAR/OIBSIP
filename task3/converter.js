@@ -1,6 +1,6 @@
 const calculateTemp = () => {
 
-    const inputTemp = document.getElementById('temp').ariaValueMax;
+    const inputTemp = document.getElementById('temp').value;
 
     const tempSelected = document.getElementById('temp_diff');
     const valueTemp = temp_diff.options[tempSelected.selectedIndex].value;
@@ -15,13 +15,20 @@ const calculateTemp = () => {
         return celcius;
     }
 
+    const kelToCel = (kel) => {
+        let celcius = (kel - 273.15).toFixed(2);
+        return celcius;
+    }
     
 
     if(valueTemp == 'cel'){
         document.getElementById("result").innerHTML = calToFah(inputTemp) + "Fahrenheit";
     }
-    else {
+    else if(valueTemp == 'fah') {
         document.getElementById("result").innerHTML = fahToCel(inputTemp) + "Celsius";
+    }
+    else if(valueTemp == 'kel') {
+        document.getElementById("result").innerHTML = kelToCel(inputTemp) + "Celsius";
     }
     
 
